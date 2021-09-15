@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="N11 Test Suite" >
+    <listeners>
+        <listener class-name="co.com.sophos.utils.Listeners.TestListener"/>
+        <listener class-name="co.com.sophos.utils.Listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="ShophosAutomatizacion">
+        <classes>
+            <class name="co.com.sophos.tests.searchOfferTest"/>
+        </classes>
+    </test>
+	
+</suite>
